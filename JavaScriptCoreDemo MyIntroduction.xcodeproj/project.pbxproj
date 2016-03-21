@@ -15,6 +15,7 @@
 		045441341C9F9801003224A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045441321C9F9801003224A6 /* LaunchScreen.storyboard */; };
 		0454413F1C9F9801003224A6 /* JavaScriptCoreDemo_MyIntroductionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454413E1C9F9801003224A6 /* JavaScriptCoreDemo_MyIntroductionTests.m */; };
 		0454414A1C9F9801003224A6 /* JavaScriptCoreDemo_MyIntroductionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045441491C9F9801003224A6 /* JavaScriptCoreDemo_MyIntroductionUITests.m */; };
+		045441581C9F9833003224A6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045441571C9F9833003224A6 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		045441451C9F9801003224A6 /* JavaScriptCoreDemo MyIntroductionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JavaScriptCoreDemo MyIntroductionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045441491C9F9801003224A6 /* JavaScriptCoreDemo_MyIntroductionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreDemo_MyIntroductionUITests.m; sourceTree = "<group>"; };
 		0454414B1C9F9801003224A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045441571C9F9833003224A6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045441581C9F9833003224A6 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		045441181C9F9800003224A6 = {
 			isa = PBXGroup;
 			children = (
+				045441571C9F9833003224A6 /* JavaScriptCore.framework */,
 				045441231C9F9800003224A6 /* JavaScriptCoreDemo MyIntroduction */,
 				0454413D1C9F9801003224A6 /* JavaScriptCoreDemo MyIntroductionTests */,
 				045441481C9F9801003224A6 /* JavaScriptCoreDemo MyIntroductionUITests */,
